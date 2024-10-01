@@ -1,2 +1,2 @@
 # Result-Declaration-Project
-Python Code
+Python Project
