@@ -10,4 +10,7 @@ z = list(roll.keys())
 
 # Passing Name as a key in second dictionary.
 if x in z:
+  name = roll[x].lower()              # Extract name with the help of Roll No.
+  print("Name of the student    :-",name.title())
+  print("-"*50)
   
