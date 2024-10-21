@@ -13,4 +13,8 @@ if x in z:
   name = roll[x].lower()              # Extract name with the help of Roll No.
   print("Name of the student    :-",name.title())
   print("-"*50)
-  
+
+  y = data[name].values()
+  s = sum(y)                          # Adding marks of all subjects.
+  print("Total Marks       :-",s)
+  print("-"*50)
