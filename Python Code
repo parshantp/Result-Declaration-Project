@@ -18,3 +18,8 @@ if x in z:
   s = sum(y)                          # Adding marks of all subjects.
   print("Total Marks       :-",s)
   print("-"*50)
+
+  per = s/500*100                     # Convert marks into percentage.
+  print(f"Percentage       :-{per}%")
+  print()
+  
