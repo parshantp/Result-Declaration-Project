@@ -21,5 +21,5 @@ if x in z:
 
   per = s/500*100                     # Convert marks into percentage.
   print(f"Percentage       :-{per}%")
-  print()
+  print("-"*50)
   
