@@ -31,4 +31,6 @@ if x in z:
         div = "Third Division"
     else:
         div = "Fail"
+    print("Division          :-",div)
+    print("-"*50)
   
