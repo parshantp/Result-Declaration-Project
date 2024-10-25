@@ -10,16 +10,25 @@ z = list(roll.keys())
 
 # Passing Name as a key in second dictionary.
 if x in z:
-  name = roll[x].lower()              # Extract name with the help of Roll No.
-  print("Name of the student    :-",name.title())
-  print("-"*50)
+    name = roll[x].lower()              # Extract name with the help of Roll No.
+    print("Name of the student    :-",name.title())
+    print("-"*50)
 
-  y = data[name].values()
-  s = sum(y)                          # Adding marks of all subjects.
-  print("Total Marks       :-",s)
-  print("-"*50)
+    y = data[name].values()
+    s = sum(y)                          # Adding marks of all subjects.
+    print("Total Marks       :-",s)
+    print("-"*50)
 
-  per = s/500*100                     # Convert marks into percentage.
-  print(f"Percentage       :-{per}%")
-  print("-"*50)
+    per = s/500*100                     # Convert marks into percentage.
+    print(f"Percentage       :-{per}%")
+    print("-"*50)
+
+    if per>=60:
+        div = "First Division"          # Finding the division of the student 
+    elif per>=45:
+        div = "Second Division"
+    elif per>=33:
+        div = "Third Division"
+    else:
+        div = "Fail"
   
