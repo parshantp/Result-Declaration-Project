@@ -33,4 +33,11 @@ if x in z:
         div = "Fail"
     print("Division          :-",div)
     print("-"*50)
+
+    if div == "Fail":                  # This is greeting for student either he\she pass or fail.
+        print("BETTER LUCK NEXT TIME")
+                                      
+    else:
+        print("🎉CONGRATULATION🎉    :-",name.upper())
+
   
