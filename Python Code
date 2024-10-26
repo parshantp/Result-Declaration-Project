@@ -40,4 +40,6 @@ if x in z:
     else:
         print("🎉CONGRATULATION🎉    :-",name.upper())
 
+else:                    # Student will get this if he\she enter wrong Roll No.
+    print("Roll No. Not Found")
   
